@@ -1,0 +1,60 @@
+/* header section */
+
+/* home section */
+h1{
+    font-size: 3.5em;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+.profile img{
+    width: 70%;
+}
+main button{
+    background-image: linear-gradient(rgba(164, 188, 70, 1), rgba(164, 188, 70, 0.5));
+}
+
+.jacket-card{
+    border: 0;
+    border-radius: 0.7em;
+}
+.jacket-card-footer{
+    background-color: white;
+    border: 0;
+    margin-bottom: 10px;
+}
+.women-product img{
+    height: 400px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+/* about section */
+.about-l img{
+    width: 100px;
+}
+.about-l{
+    border: none;
+}
+.about-r img{
+    width: 90%;
+}
+/* payment section */
+.pay-card{
+    border: none;
+    height: 90%;
+    width: 90%;
+}
+.pay-card-detail{
+    display: none;
+}
+.pay-card:hover .pay-card-detail{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* footer section */
+footer a{
+    text-decoration: none;
+}
